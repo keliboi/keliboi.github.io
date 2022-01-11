@@ -235,10 +235,16 @@ section {
     margin-left: 20px;
 }
 
-.project .content .textBox p, .project .content .textBox a {
+.project .content .textBox p {
     font-family: 'Open Sans', sans-serif;
     text-align: justify;
     text-transform: none;
+}
+
+.project .content .textBox a {
+    text-align: justify;
+    text-transform: none;
+    text-decoration: underline;
 }
 
 .project .content .textBox a:hover {
