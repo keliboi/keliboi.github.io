@@ -350,7 +350,20 @@ section {
         font-size: 1.5em;
     }
 
+    .toggle {
+        right: 25px;
+    }
+
+    section {
+        padding: 25px;
+    }
+
     .about .content .textBox p, .project .content .textBox p {
         font-size: 0.75em;
+    }
+
+    .work .content .workBox {
+        max-width: 480px;
+        max-height: 360px;
     }
 }
