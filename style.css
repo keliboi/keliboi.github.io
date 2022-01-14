@@ -9,8 +9,8 @@
     text-decoration: none;
     font-weight: 500;
     scroll-behavior: smooth;
-    color: #222323;
-    background: #f0f6f0;
+    color: #000000;
+    background: #ffffff;
 }
 
 .toggle {
@@ -74,8 +74,8 @@ section {
 }
 
 .btn {
-    background: #222323;
-    color: #f0f6f0;
+    background: #000000;
+    color: #ffffff;
     padding: 10px 30px;
     display: inline-block;
     letter-spacing: 2px;
@@ -88,7 +88,7 @@ section {
 
 .sidebar {
     position: fixed;
-    background: #f0f6f0;
+    background: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,7 +114,7 @@ section {
 }
 
 .sidebar ul li a {
-    color: #222323;
+    color: #000000;
     text-decoration: none;
     font-size: 2em;
     margin: 10px 0;
@@ -144,7 +144,7 @@ section {
     bottom: -10px;
     width: 60px;
     height: 4px;
-    background: #222323;
+    background: #000000;
 }
 
 .about .content {
@@ -204,7 +204,7 @@ section {
 }
 
 .work .content .workBox .textBox {
-    background: #222323;
+    background: #000000;
     opacity: 0;
     transition: 0.5s;
 }
@@ -214,8 +214,8 @@ section {
 }
 
 .work .content .workBox .textBox a {
-    background: #222323;
-    color: #f0f6f0;
+    background: #000000;
+    color: #ffffff;
     letter-spacing: 5px;
 }
 
