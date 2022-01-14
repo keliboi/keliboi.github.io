@@ -345,4 +345,12 @@ section {
     .btn {
         margin-top: 10px;
     }
+
+    .title h2 {
+        font-size: 1.5em;
+    }
+
+    .about .content .textBox p, .project .content .textBox p {
+        font-size: 0.75em;
+    }
 }
