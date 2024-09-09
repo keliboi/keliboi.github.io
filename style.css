@@ -84,6 +84,7 @@ section {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-top: 20px;
+    min-width: 240px;
 }
 
 .btn:hover {
