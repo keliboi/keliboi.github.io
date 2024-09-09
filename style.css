@@ -263,14 +263,14 @@ section {
     flex-direction: row;
 }
 
-.contact .content .textBox a {
+.contact .content .textBox p {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-size: 1.2em;
-    text-transform: none;
 }
 
-.contact .content .textBox a:hover {
+.contact .content .textBox a {
+    font-family: 'Open Sans', sans-serif;
     text-decoration: underline;
 }
 
