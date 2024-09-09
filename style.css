@@ -281,6 +281,7 @@ section {
 .copyright p {
     margin: 20px;
     font-size: 16px;
+    text-transform: uppercase;
 }
 
 @media(max-width: 1025px) {
