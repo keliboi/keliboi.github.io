@@ -27,6 +27,7 @@
 }
 
 .toggle.active {
+    position: fixed;
     background-image: url(img/close.png);
     background-size: 15px;
     background-position: center;
@@ -288,6 +289,10 @@ section {
 
 @media(max-width: 1025px) {
 
+    .toggle {
+        position: absolute;
+    }
+    
     .banner .contentBox, .sidebar {
          padding: 40px;
     }
@@ -300,10 +305,6 @@ section {
         font-size: 1.2em;
         margin-top: -50px;
         margin-left: 215px;
-    }
-
-    .toggle {
-        right: 40px;
     }
 
     section {
