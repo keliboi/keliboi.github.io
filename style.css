@@ -91,6 +91,32 @@ section {
     background: #4d4d4d;
 }
 
+.btn span {
+    background: #000000;
+    color: #ffffff;
+    position: relative;
+    transition: 0.7s;
+}
+  
+.btn span:after {
+    content: '→';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.7s;
+}
+  
+.btn:hover span {
+    background: #4d4d4d;
+    padding-right: 25px;
+}
+  
+.btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
 .sidebar {
     position: fixed;
     background: #ffffff;
