@@ -181,27 +181,26 @@ section {
     background: #000000;
 }
 
-.about .content {
+.content {
     display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-    flex-direction: column;
+    margin-top: 50px;
+}
+
+.about .content {
+    justify-content: center;
 }
 
 .about .content .textBox {
-    min-width: 100%;
-    width: 100%;
+    width: 70%;
 }
 
 .about .content .textBox p, .project .content .textBox p {
-    font-size: 0.9em;
+    font-size: 1em;
     letter-spacing: 2px;
 }
 
 .work .content {
-    display: flex;
     justify-content: center;
-    margin-top: 40px;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -257,9 +256,7 @@ section {
 }
 
 .project .content {
-    display: flex;
     justify-content: space-between;
-    margin-top: 40px;
 }
 
 .project .content .textBox {
@@ -287,10 +284,8 @@ section {
 }
 
 .contact .content {
-    display: flex;
     justify-content: center;
     align-content: center;
-    margin-top: 40px;
     flex-direction: row;
 }
 
@@ -392,6 +387,10 @@ section {
 
     section {
         padding: 25px;
+    }
+    
+    .about .content .textBox {
+        width: 100%;
     }
 
     .about .content .textBox p, .project .content .textBox p {
