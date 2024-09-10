@@ -246,7 +246,7 @@ section {
 .work .content .workBox .textBox {
     background: #000000;
     opacity: 0;
-    transition: 0.5s;
+    transition: 0.7s;
 }
 
 .work .content .workBox:hover .textBox {
@@ -254,14 +254,11 @@ section {
 }
 
 .work .content .workBox .textBox a {
+    font-size: 1.2em;
     font-family: 'Cormorant', serif;
     background: #000000;
     color: #ffffff;
     letter-spacing: 5px;
-}
-
-.work .content .workBox .textBox a:hover {
-    text-decoration: underline;
 }
 
 .project .content {
