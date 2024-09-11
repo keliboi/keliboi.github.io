@@ -402,6 +402,10 @@ section {
     section {
         padding: 25px;
     }
+
+    section.work {
+        padding: 25px 0px;
+    }
     
     .about .content .textBox {
         width: 100%;
@@ -412,8 +416,8 @@ section {
     }
 
     .work .content .workBox {
-        max-width: 320px;
-        max-height: 250px;
+        max-width: none;
+        max-height: 310px;
         margin: 0px 0px 15px;
     }
 }
