@@ -200,6 +200,8 @@ section {
 }
 
 .work .content {
+    width: 90%;
+    margin: 50px auto auto;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
@@ -315,7 +317,7 @@ section {
     text-transform: uppercase;
 }
 
-@media(max-width: 1025px) {
+@media(max-width: 1024px) {
 
     .toggle {
         position: absolute;
@@ -344,10 +346,16 @@ section {
     }
 
 
+    .work .content {
+        width: 100%;
+        margin: 50px 0px 0px;
+    }
+
     .work .content .workBox {
         max-width: 400px;
         max-height: 300px;
         width: 100%;
+        margin: 0px 10px 20px;
     }
 
     .project .content {
@@ -404,7 +412,8 @@ section {
     }
 
     .work .content .workBox {
-        max-width: 480px;
-        max-height: 360px;
+        max-width: 320px;
+        max-height: 250px;
+        margin: 0px 0px 15px;
     }
 }
