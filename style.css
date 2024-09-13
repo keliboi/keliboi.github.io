@@ -264,12 +264,14 @@ section {
 }
 
 .project .content {
+    width: 90%;
+    margin: 50px auto auto;
     justify-content: space-between;
 }
 
 .project .content .textBox {
-    min-width: 49%;
-    width: 49%;
+    min-width: 40%;
+    width: 40%;
     margin-left: 20px;
 }
 
@@ -359,6 +361,7 @@ section {
     }
 
     .project .content {
+        width: 70%;
         flex-direction: column;
     }
 
@@ -419,5 +422,10 @@ section {
         max-width: none;
         max-height: 310px;
         margin: 0px 0px 15px;
+    }
+
+    .project .content {
+        width: 100%;
+        margin: 50px 0px 0px;
     }
 }
