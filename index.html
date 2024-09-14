@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta property="og:title" content="Kelly NEUDA - Portfolio"/>
-    <meta property="og:image" content="img/prev.jpg"/>
+    <!-- <meta property="og:image" content="img/prev.jpg"/> -->
     <meta property="og:description" content="Portfolio"/>
     <meta property="og:url" content="https://keliboi.github.io"/>
     <meta property="og:image:width" content="1280"/>
@@ -16,15 +16,15 @@
 </head>
 <body>
     <!-- MENU BUTTON -->
-    <div class="toggle" onclick="toggleMenu();"></div>
+    <div class="menu-btn" onclick="toggleMenu();"></div>
     <!-- HOME -->
     <section class="banner" id="home">
-        <div class="contentBox">
+        <div class="content-box">
             <div>
                 <h1>Kelly NEUDA</h1>
                 <h2>Web Developer & Designer</h2>
-                <a href="#about" class="btn"><span>About Me</span></a>
-                <a href="#work" class="btn"><span>Recent Work</span></a>
+                <a href="#about" class="nav-btn"><span>About Me</span></a>
+                <a href="#work" class="nav-btn"><span>Recent Work</span></a>
             </div>
         </div>
     </section>
@@ -34,7 +34,7 @@
             <h2>Hello, how are you?</h2>
         </div>
         <div class="content">
-            <div class="textBox">
+            <div class="text-box">
                 <p>My name is Kelly Neuda. I have recently graduated from the University of Saskatchewan with an Interactive Systems Design degree, which combines courses in art and art history, psychology, and computer science to provide knowledge and skills in designing, building, and evaluating interactive systems. I was part of several group projects from different courses, where I had hands-on experience in front-end requirement analysis, prototyping, and implementation of graphical user interfaces.</p><br>
                 <p>I have experience in implementing and maintaining high quality web-applications from my professional internship, years of experience in finding customer-focused solutions, and values collaborative communication from my leadership experiences in customer service.</p>
             </div>
@@ -47,56 +47,56 @@
         </div>
         <div class="content">
             <!-- 1 -->
-            <div class="workBox">
-                <div class="imageBox">
+            <div class="work-box">
+                <div class="image-box">
                     <img src="img/work1.jpg">
                 </div>
-                <div class="textBox">
+                <div class="text-box">
                     <a href="#project1">TTrack App →</a>
                 </div>
             </div>
             <!-- 2 -->
-            <div class="workBox">
-                <div class="imageBox">
+            <div class="work-box">
+                <div class="image-box">
                     <img src="img/work2.jpg">
                 </div>
-                <div class="textBox">
+                <div class="text-box">
                     <a href="#project2">Castle Crashers →</a>
                 </div>
             </div>
             <!-- 3 -->
-            <div class="workBox">
-                <div class="imageBox">
+            <div class="work-box">
+                <div class="image-box">
                     <img src="img/work3.jpg">
                 </div>
-                <div class="textBox">
+                <div class="text-box">
                     <a href="#project3">2nd Avenue Dental →</a>
                 </div>
             </div>
             <!-- 4 -->
-            <div class="workBox">
-                <div class="imageBox">
+            <div class="work-box">
+                <div class="image-box">
                     <img src="img/work4.jpg">
                 </div>
-                <div class="textBox">
+                <div class="text-box">
                     <a href="#project4">AMS →</a>
                 </div>
             </div>
             <!-- 5 -->
-            <div class="workBox">
-                <div class="imageBox">
+            <div class="work-box">
+                <div class="image-box">
                     <img src="img/work5.jpg">
                 </div>
-                <div class="textBox">
+                <div class="text-box">
                     <a href="#project5">Bahay Kubo →</a>
                 </div>
             </div>
             <!-- 6 -->
-            <div class="workBox">
-                <div class="imageBox">
+            <div class="work-box">
+                <div class="image-box">
                     <img src="img/work6.jpg">
                 </div>
-                <div class="textBox">
+                <div class="text-box">
                     <a href="#project6">Stop Motion →</a>
                 </div>
             </div>
@@ -104,31 +104,41 @@
     </section>
     <!-- PROJECT 1 -->
     <section class="project" id="project1">
-        <div class="title">
-            <h2>TTrack App</h2>
-        </div>
         <div class="content">
-            <div class="textBox">
+            <div class="text-box">
+                <div class="title">
+                    <h2>TTrack App</h2>
+                </div>
                 <p>A simple time-tracker application that lets users record the time they spend on a set of projects, create new projects to track, and see summaries of their time records.</p><br>
                 <p>Developed with Java and JavaFX using widgets, events, layout, and Model-View-Controller architecture. Designed and built a simple user interface using the iterative design process including task descriptions, sketch-based prototypes, screen design, and task walkthroughs.</p>
             </div> 
-            <div class="imageBox">
+            <div class="image-box">
+                <div class="btn-wrapper">
+                    <div class="window-btn close-btn"></div>
+                    <div class="window-btn min-btn"></div>
+                    <div class="window-btn max-btn"></div>
+                  </div>
                 <img src="img/proj1a.jpg">
-                <img src="img/proj1b.jpg">
+                <!-- <img src="img/proj1b.jpg"> -->
             </div>
         </div>
     </section>
     <!-- PROJECT 2 -->
     <section class="project" id="project2">
-        <div class="title">
-            <h2>Castle Crashers</h2>
-        </div>
         <div class="content">
-            <div class="imageBox">
+            <div class="image-box">
+                <div class="btn-wrapper">
+                    <div class="window-btn close-btn"></div>
+                    <div class="window-btn min-btn"></div>
+                    <div class="window-btn max-btn"></div>
+                  </div>
                 <img src="img/proj2a.jpg">
-                <img src="img/proj2b.jpg">
+                <!-- <img src="img/proj2b.jpg"> -->
             </div>
-            <div class="textBox">
+            <div class="text-box">
+                <div class="title">
+                    <h2>Castle Crashers</h2>
+                </div>
                 <p>A roguelike action dungeon crawler videogame prototype with infinite levels achieved through procedural content generation, rewards and achievements systems, path planning AI enemies, sounds and animations, and difficulty scaling.</p><br>
                 <p>Developed using Unity and C#. Developed scripts for rewards such as powerups and enemy drops, achievements system, health bars, difficulty scaling, etc., integrated lighting, and designed overlay screen effects using Adobe Photoshop.</p><br>
                 <a href="https://www.youtube.com/watch?v=27xrTJ3nenE">Watch TRAILER</a><br>
@@ -138,31 +148,41 @@
     </section>
     <!-- PROJECT 3 -->
     <section class="project" id="project3">
-        <div class="title">
-            <h2>2nd Avenue Dental</h2>
-        </div>
         <div class="content">
-            <div class="textBox">
+            <div class="text-box">
+                <div class="title">
+                    <h2>2nd Avenue Dental</h2>
+                </div>
                 <p>A modern and functional website for a fictional Saskatoon based dentist.</p><br>
                 <p>Developed using HTML, CSS, and basic JavaScript. Designed using design factors such as contrast, repetition, alignment, and proximity.</p>
             </div> 
-            <div class="imageBox">
+            <div class="image-box">
+                <div class="btn-wrapper">
+                    <div class="window-btn close-btn"></div>
+                    <div class="window-btn min-btn"></div>
+                    <div class="window-btn max-btn"></div>
+                  </div>
                 <img src="img/proj3a.jpg">
-                <img src="img/proj3b.jpg">
+                <!-- <img src="img/proj3b.jpg"> -->
             </div>
         </div>
     </section>
     <!-- PROJECT 4 -->
     <section class="project" id="project4">
-        <div class="title">
-            <h2>Airport Management System</h2>
-        </div>
         <div class="content">
-            <div class="imageBox">
+            <div class="image-box">
+                <div class="btn-wrapper">
+                    <div class="window-btn close-btn"></div>
+                    <div class="window-btn min-btn"></div>
+                    <div class="window-btn max-btn"></div>
+                  </div>
                 <img src="img/proj4a.jpg">
-                <img src="img/proj4b.jpg">
+                <!-- <img src="img/proj4b.jpg"> -->
             </div>
-            <div class="textBox">
+            <div class="text-box">
+                <div class="title">
+                    <h2>Airport Management System</h2>
+                </div>
                 <p>A desktop application intended for an airport to use, in managing the day-to-day operations of its business such as managing gates for flights, managing employee schedules, and deployment throughout the airport.</p><br>
                 <p>Developed using Java, JavaFX using SceneBuilder, and SQL. Developed user personas, user interface storyboards, and test plans, implemented features such as modifying a flight, adding an employee role, etc., and produced documentation for milestone submissions.</p><br>
                 <p>Implemented and delivered with Scrum software development, with data model using database through SQL, and version control using Git.</p>
@@ -171,31 +191,41 @@
     </section>
     <!-- PROJECT 5 -->
     <section class="project" id="project5">
-        <div class="title">
-            <h2>Bahay Kubo</h2>
-        </div>
         <div class="content">
-            <div class="textBox">
+            <div class="text-box">
+                <div class="title">
+                    <h2>Bahay Kubo</h2>
+                </div>
                 <p>A black-and-white still life photography project.</p><br>
                 <p style="font-style: italic;">"The choice of subject matter is based on “Bahay Kubo”, a traditional Filipino folk song, which is lyrically about valuing the abundance of vegetables and crops, while living a humble life in a stilted hut, which is a reminder that wealth is not just about money, but also many things that we easily over appreciate. With such subject matter, still life is a seamless way to purely emphasize any inanimate objects around us. This series makes use of “chiaroscuro”. Exposure to the works of Vermeer, Rembrandt, and Goya, from my art history class, has made me a fan of such lighting technique, as the play with the highlights and shadows can bring very significant styling effects to any visual art."</p>
             </div>
-            <div class="imageBox">
+            <div class="image-box">
+                <div class="btn-wrapper">
+                    <div class="window-btn close-btn"></div>
+                    <div class="window-btn min-btn"></div>
+                    <div class="window-btn max-btn"></div>
+                  </div>
                 <img src="img/proj5a.jpg">
-                <img src="img/proj5b.jpg">
+                <!-- <img src="img/proj5b.jpg"> -->
             </div>
         </div>
     </section>
     <!-- PROJECT 6 -->
     <section class="project" id="project6">
-        <div class="title">
-            <h2>Worm</h2>
-        </div>
         <div class="content">
-            <div class="imageBox">
+            <div class="image-box">
+                <div class="btn-wrapper">
+                    <div class="window-btn close-btn"></div>
+                    <div class="window-btn min-btn"></div>
+                    <div class="window-btn max-btn"></div>
+                  </div>
                 <img src="img/proj6a.jpg">
-                <img src="img/proj6b.jpg">
+                <!-- <img src="img/proj6b.jpg"> -->
             </div>
-            <div class="textBox">
+            <div class="text-box">
+                <div class="title">
+                    <h2>Worm</h2>
+                </div>
                 <p>A stop motion animation project.</p><br>
                 <p>This short clip is heavily inspired by Elise Fachon's PIN, in which they were able to give life and animate a simple object such as a pin. Frames for this clip were shot using a mirrorless camera. By using a wire, which is visible in some frames, I was able to animate a piece of string to crawl like a caterpillar, which crawls forward its first half of its body, then quickly drags its back part of its body. The mid-scene is added to give such caterpillar a playful personality which is very common in animation.</p><br>
                 <a href="https://drive.google.com/file/d/1MIljuvvvXX7Xi0NeIMTMdAzAg0_peSXg/view?usp=sharing">Watch VIDEO</a>
@@ -208,7 +238,7 @@
             <h2>Let's work together!</h2>
         </div>
         <div class="content">
-            <div class="textBox">
+            <div class="text-box">
                 <p>Email me at <a class="email" href = "mailto: kelly.neuda@usask.ca">kelly.neuda@usask.ca</a></p>
             </div>
         </div>
@@ -228,7 +258,7 @@
     </div>
     <script>
         function toggleMenu() {
-            const menuToggle = document.querySelector('.toggle');
+            const menuToggle = document.querySelector('.menu-btn');
             const sidebar = document.querySelector('.sidebar');
             menuToggle.classList.toggle('active');
             sidebar.classList.toggle('active');

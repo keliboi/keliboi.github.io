@@ -12,7 +12,7 @@
     background: #ffffff;
 }
 
-.toggle {
+.menu-btn {
     position: fixed;
     top: 30px;
     right: 30px;
@@ -26,7 +26,7 @@
     z-index: 1000;
 }
 
-.toggle.active {
+.menu-btn.active {
     position: fixed;
     background-image: url(img/close.png);
     background-size: 15px;
@@ -46,7 +46,7 @@ section {
     text-align: center;
 }
 
-.banner .contentBox, .sidebar {
+.banner .content-box, .sidebar {
     position: absolute;
     top: 0;
     right: 0;
@@ -59,7 +59,7 @@ section {
 }
 
 
-.banner .contentBox h1 {
+.banner .content-box h1 {
     font-size: 10em;
     font-family: 'Cormorant', serif;
     letter-spacing: -7px;
@@ -67,7 +67,7 @@ section {
     text-transform: none;
 }
 
-.banner .contentBox h2 {
+.banner .content-box h2 {
     font-size: 1.7em;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -75,7 +75,7 @@ section {
     margin-left: 330px;
 }
 
-.btn {
+.nav-btn {
     background: #000000;
     color: #ffffff;
     transition: background-color 0.7s;
@@ -87,18 +87,18 @@ section {
     min-width: 240px;
 }
 
-.btn:hover {
+.nav-btn:hover {
     background: #4d4d4d;
 }
 
-.btn span {
+.nav-btn span {
     background: #000000;
     color: #ffffff;
     position: relative;
     transition: 0.7s;
 }
   
-.btn span:after {
+.nav-btn span:after {
     content: '→';
     position: absolute;
     opacity: 0;
@@ -107,12 +107,12 @@ section {
     transition: 0.7s;
 }
   
-.btn:hover span {
+.nav-btn:hover span {
     background: #4d4d4d;
     padding-right: 25px;
 }
   
-.btn:hover span:after {
+.nav-btn:hover span:after {
     opacity: 1;
     right: 0;
 }
@@ -181,6 +181,16 @@ section {
     background: #000000;
 }
 
+.project .title {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.project .title h2::before {
+    left: 0%;
+    transform: translateX(0%);
+}
+
 .content {
     display: flex;
     margin-top: 50px;
@@ -190,11 +200,11 @@ section {
     justify-content: center;
 }
 
-.about .content .textBox {
+.about .content .text-box {
     width: 70%;
 }
 
-.about .content .textBox p, .project .content .textBox p {
+.about .content .text-box p, .project .content .text-box p {
     font-size: 1em;
     letter-spacing: 2px;
 }
@@ -207,7 +217,7 @@ section {
     flex-wrap: wrap;
 }
 
-.work .content .workBox {
+.work .content .work-box {
     position: relative;
     width: 500px;
     height: 375px;
@@ -216,8 +226,8 @@ section {
     text-align: center;
 }
 
-.work .content .workBox .imageBox,
-.work .content .workBox .textBox {
+.work .content .work-box .image-box,
+.work .content .work-box .text-box {
     position: absolute;
     top: 0;
     left: 0;
@@ -227,16 +237,16 @@ section {
     justify-content: center;
 }
 
-.work .content .workBox .imageBox {
+.work .content .work-box .image-box {
     align-items: center;
 }
 
-.work .content .workBox .textBox {
+.work .content .work-box .text-box {
     padding-bottom: 40px;
     align-items: end;
 }
 
-.work .content .workBox .imageBox img {
+.work .content .work-box .image-box img {
     position: absolute;
     top: 0;
     left: 0;
@@ -245,17 +255,17 @@ section {
     object-fit: cover;
 }
 
-.work .content .workBox .textBox {
+.work .content .work-box .text-box {
     background: #000000;
     opacity: 0;
     transition: 0.7s;
 }
 
-.work .content .workBox:hover .textBox {
+.work .content .work-box:hover .text-box {
     opacity: 1;
 }
 
-.work .content .workBox .textBox a {
+.work .content .work-box .text-box a {
     font-size: 1.2em;
     font-family: 'Cormorant', serif;
     background: #000000;
@@ -264,32 +274,62 @@ section {
 }
 
 .project .content {
-    width: 90%;
+    width: 80%;
     margin: 50px auto auto;
     justify-content: space-between;
 }
 
-.project .content .textBox {
+.project .content .text-box {
     min-width: 40%;
     width: 40%;
     margin-left: 20px;
 }
 
-.project .content .textBox a {
+.project .content .text-box a {
     font-size: 1.2em;
     font-family: 'Cormorant', serif;
     text-transform: none;
 }
 
-.project .content .textBox a:hover {
+.project .content .text-box a:hover {
     text-decoration: underline;
 }
 
-.project .content .imageBox {
+.btn-wrapper {
+    position: absolute;
+    background: none;
+    padding-top: 14px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+  
+.window-btn {
+    width: 0.8em;
+    height: 0.8em;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+  
+.close-btn {
+    background: #fe5f57;
+}
+  
+.min-btn {
+    background: #febb2f;
+}
+  
+.max-btn {
+    background: #29c740;
+}
+
+.project .content .image-box {
     margin-left: 20px;
 }
 
-.project .content .imageBox img {
+.project .content .image-box img {
+    padding: 37px 5px 5px;
+    border: 1px solid #000000;
     max-width: 100%;
 }
 
@@ -299,12 +339,12 @@ section {
     flex-direction: row;
 }
 
-.contact .content .textBox p {
+.contact .content .text-box p {
     text-align: center;
     font-size: 1.2em;
 }
 
-.contact .content .textBox a {
+.contact .content .text-box a {
     text-decoration: underline;
 }
 
@@ -321,19 +361,19 @@ section {
 
 @media(max-width: 1024px) {
 
-    .toggle {
+    .menu-btn {
         position: absolute;
     }
     
-    .banner .contentBox, .sidebar {
+    .banner .content-box, .sidebar {
          padding: 40px;
     }
 
-    .banner .contentBox h1 {
+    .banner .content-box h1 {
         font-size: 7em;
     }
     
-    .banner .contentBox h2 {
+    .banner .content-box h2 {
         font-size: 1.2em;
         margin-top: -50px;
         margin-left: 215px;
@@ -353,7 +393,7 @@ section {
         margin: 50px 0px 0px;
     }
 
-    .work .content .workBox {
+    .work .content .work-box {
         max-width: 400px;
         max-height: 300px;
         width: 100%;
@@ -365,32 +405,33 @@ section {
         flex-direction: column;
     }
 
-    .project .content .textBox {
+    .project .content .text-box {
         min-width: 100%;
         width: 100%;
         margin-left: 0px;
         margin-bottom: 20px;
     }
 
-    .project .content .imageBox {
+    .project .content .image-box {
         margin-left: 0px;
+        margin-bottom: 20px;
     }
 }
 
 @media(max-width: 540px) {
 
-    .banner .contentBox h1 {
+    .banner .content-box h1 {
         font-size: 4em;
         letter-spacing: -5px;
         line-height: 50px;
     }
 
-    .banner .contentBox h2 {
+    .banner .content-box h2 {
         font-size: 0.7em;
         margin: 5px 0px 10px;
     }
 
-    .btn {
+    .nav-btn {
         margin-top: 10px;
     }
 
@@ -398,7 +439,7 @@ section {
         font-size: 1.5em;
     }
 
-    .toggle {
+    .menu-btn {
         right: 25px;
     }
 
@@ -410,15 +451,15 @@ section {
         padding: 25px 0px;
     }
     
-    .about .content .textBox {
+    .about .content .text-box {
         width: 100%;
     }
 
-    .about .content .textBox p, .project .content .textBox p {
+    .about .content .text-box p, .project .content .text-box p {
         font-size: 0.75em;
     }
 
-    .work .content .workBox {
+    .work .content .work-box {
         max-width: none;
         max-height: 310px;
         margin: 0px 0px 15px;
