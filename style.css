@@ -92,6 +92,7 @@ section {
 }
 
 .nav-btn span {
+    font-family: 'Cormorant', serif;
     background: #000000;
     color: #ffffff;
     position: relative;
