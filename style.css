@@ -141,6 +141,7 @@ section {
 }
 
 .sidebar ul li {
+    margin: 10px 0px;
     list-style: none;
 }
 
@@ -155,7 +156,7 @@ section {
 }
 
 .sidebar ul li a:hover {
-    text-decoration: underline;
+    color: #4d4d4d;
 }
 
 .title {
