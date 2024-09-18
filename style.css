@@ -338,6 +338,10 @@ section {
     max-width: 100%;
 }
 
+section.contact {
+    min-height: 70vh;
+}
+
 .contact .content {
     justify-content: center;
     align-content: center;
