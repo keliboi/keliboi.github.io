@@ -58,7 +58,6 @@ section {
     padding: 100px;
 }
 
-
 .banner .content-box h1 {
     font-size: 10em;
     font-family: 'Cormorant', serif;
@@ -244,7 +243,7 @@ section {
 }
 
 .work .content .work-box .text-box {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     align-items: end;
 }
 
@@ -273,6 +272,10 @@ section {
     background: #000000;
     color: #ffffff;
     letter-spacing: 5px;
+}
+
+.work .content .work-box .text-box a:hover {
+    color: #e4e4e4;
 }
 
 .project .content {
