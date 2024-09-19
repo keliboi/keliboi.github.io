@@ -197,7 +197,14 @@ section {
     margin-top: 50px;
 }
 
+.about .content,
+.work .content,
+.project .content {
+    margin: 50px auto auto;
+}
+
 .about .content {
+    max-width: 1600px;
     justify-content: center;
 }
 
@@ -211,6 +218,7 @@ section {
 }
 
 .work .content {
+    max-width: 1600px;
     width: 90%;
     margin: 50px auto auto;
     justify-content: center;
@@ -279,6 +287,7 @@ section {
 }
 
 .project .content {
+    max-width: 1200px;
     width: 80%;
     margin: 50px auto auto;
     justify-content: space-between;
