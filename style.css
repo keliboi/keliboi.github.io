@@ -348,7 +348,8 @@ section {
 }
 
 section.contact {
-    min-height: 70vh;
+    align-content: center;
+    min-height: 80vh;
 }
 
 .contact .content {
@@ -366,12 +367,21 @@ section.contact {
     text-decoration: underline;
 }
 
+.home-btn-container {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.home-btn-container a {
+    text-transform: uppercase;
+}
+
 .copyright {
     text-align: center;
 }
 
 .copyright p {
-    margin: 20px;
+    margin: 20px 0px;
     font-size: 16px;
     font-family: 'Cormorant', serif;
     text-transform: uppercase;
