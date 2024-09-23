@@ -215,6 +215,14 @@ section {
     letter-spacing: 2px;
 }
 
+.text-box p {
+    margin-bottom: 25px;
+}
+
+.text-box li {
+    list-style: none;
+}
+
 .work .content {
     max-width: 1500px;
     width: 90%;
@@ -413,6 +421,9 @@ section.contact {
         font-size: 1.5em;
     }
 
+    .text-box p {
+        margin-bottom: 20px;
+    }
 
     .work .content {
         width: 100%;
@@ -483,6 +494,10 @@ section.contact {
 
     .about .content .text-box p, .project .content .text-box p {
         font-size: 0.75em;
+    }
+
+    .text-box p {
+        margin-bottom: 15px;
     }
 
     .work .content .work-box {
