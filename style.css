@@ -208,13 +208,16 @@ section {
     justify-content: center;
 }
 
+.bold-text {
+    font-weight: 600;
+}
+
 .about .content .text-box {
     width: 70%;
 }
 
 .about .content .text-box p, .project .content .text-box p {
     font-size: 1em;
-    letter-spacing: 2px;
 }
 
 .text-box p {
