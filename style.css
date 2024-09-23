@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Open+Sans:wght@300&display=swap');
-    
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 300;
     scroll-behavior: smooth;
     color: #000000;
     background: #ffffff;
