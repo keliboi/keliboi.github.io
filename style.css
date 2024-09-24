@@ -10,6 +10,10 @@
     background: #ffffff;
 }
 
+.bold-text {
+    font-weight: 600;
+}
+
 .menu-btn {
     position: fixed;
     top: 30px;
@@ -208,16 +212,26 @@ section {
     justify-content: center;
 }
 
-.bold-text {
-    font-weight: 600;
-}
-
 .about .content .text-box {
     width: 70%;
 }
 
-.about .content .text-box p, .project .content .text-box p {
+.about .content .text-box p,
+.project .content .text-box p {
     font-size: 1em;
+}
+
+.about .content .text-box a,
+.project .content .text-box a {
+    font-size: 1.2em;
+    font-family: 'Cormorant', serif;
+    font-weight: 500;
+    text-transform: none;
+}
+
+.about .content .text-box a:hover,
+.project .content .text-box a:hover {
+    color: #4d4d4d;
 }
 
 .text-box p {
@@ -315,17 +329,6 @@ section {
     margin-bottom: 10px;
 }
 
-.project .content .text-box a {
-    font-size: 1.2em;
-    font-family: 'Cormorant', serif;
-    font-weight: 500;
-    text-transform: none;
-}
-
-.project .content .text-box a:hover {
-    color: #4d4d4d;
-}
-
 .btn-wrapper {
     position: absolute;
     background: none;
@@ -410,7 +413,8 @@ section.contact {
         position: absolute;
     }
     
-    .banner .content-box, .sidebar {
+    .banner .content-box,
+    .sidebar {
          padding: 40px;
     }
 
@@ -503,7 +507,8 @@ section.contact {
         width: 100%;
     }
 
-    .about .content .text-box p, .project .content .text-box p {
+    .about .content .text-box p,
+    .project .content .text-box p {
         font-size: 0.8em;
     }
 
