@@ -225,7 +225,7 @@ section {
 }
 
 .about .content .text-box {
-    width: 70%;
+    width: 80%;
 }
 
 .about .content .text-box p,
@@ -325,7 +325,7 @@ section {
 }
 
 .project .content {
-    max-width: 1200px;
+    max-width: 1280px;
     width: 80%;
     margin: 0px auto auto;
     justify-content: space-between;
@@ -334,7 +334,11 @@ section {
 .project .content .text-box {
     min-width: 40%;
     width: 40%;
-    margin-left: 20px;
+}
+
+.project .content .text-box.left-column,
+.project .content .image-box.left-column {
+    margin-right: 20px;
 }
 
 .project .content .text-box li {
@@ -367,10 +371,6 @@ section {
   
 .max-btn {
     background: #29c740;
-}
-
-.project .content .image-box {
-    margin-left: 20px;
 }
 
 .project .content .image-box img {
@@ -456,6 +456,10 @@ section.contact {
         margin-bottom: 20px;
     }
 
+    .about .content .text-box {
+        width: 70%;
+    }
+
     .work .content {
         width: 100%;
         margin: 50px 0px 0px;
@@ -476,12 +480,11 @@ section.contact {
     .project .content .text-box {
         min-width: 100%;
         width: 100%;
-        margin-left: 0px;
-        margin-bottom: 20px;
     }
 
-    .project .content .image-box {
-        margin-left: 0px;
+    .project .content .text-box.left-column,
+    .project .content .image-box.left-column {
+        margin-right: 0px;
         margin-bottom: 20px;
     }
 }
