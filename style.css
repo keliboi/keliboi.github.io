@@ -495,6 +495,14 @@ section.contact {
         margin-right: 0px;
         margin-bottom: 20px;
     }
+
+    .order-md-1 {
+        order: 1;
+    }
+
+    .order-md-2 {
+        order: 2;
+    }
 }
 
 @media(max-width: 540px) {
@@ -567,13 +575,5 @@ section.contact {
 
     .project .content .text-box li {
         margin-bottom: 5px;
-    }
-
-    .order-sm-1 {
-        order: 1;
-    }
-
-    .order-sm-2 {
-        order: 2;
     }
 }
