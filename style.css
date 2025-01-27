@@ -345,6 +345,14 @@ section {
     margin-bottom: 10px;
 }
 
+.order-lg-1 {
+    order: 1;
+}
+
+.order-lg-2 {
+    order: 2;
+}
+
 .btn-wrapper {
     position: absolute;
     background: none;
@@ -559,5 +567,13 @@ section.contact {
 
     .project .content .text-box li {
         margin-bottom: 5px;
+    }
+
+    .order-sm-1 {
+        order: 1;
+    }
+
+    .order-sm-2 {
+        order: 2;
     }
 }
