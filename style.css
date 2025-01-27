@@ -489,9 +489,13 @@ section.contact {
         min-width: 100%;
         width: 100%;
     }
+    
+    .project .content .image-box.left-column {
+        margin-right: 0px;
+    }
 
     .project .content .text-box.left-column,
-    .project .content .image-box.left-column {
+    .project .content .text-box.order-md-1 {
         margin-right: 0px;
         margin-bottom: 20px;
     }
